@@ -18,14 +18,8 @@ Whether you're a student, self-learner, or preparing for coding interviews, this
 
 ## 🧩 Topics Covered
 
-- Sorting (Bubble, Merge, Quick, etc.)  
-- Searching (Binary Search, Linear Search)  
-- Recursion & Divide & Conquer  
-- Dynamic Programming  
-- Graph Algorithms (DFS, BFS, Dijkstra's)  
-- Greedy Algorithms  
-- Backtracking  
-- *More coming soon...*
+- Linear search {Code and Time / Space complexity} 
+
 
 ---
 
