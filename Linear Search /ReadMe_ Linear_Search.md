@@ -33,6 +33,59 @@ The space complexity of **Linear Search** refers to the amount of extra memory t
 
 ---
 
+# Types of Linear Search (Simple Terms)
+
+Linear search is a way to find an item in a list by checking each element one by one. There are a few **types** or **variations** based on how and where the search happens:
+
+## 1. **Basic Linear Search**
+- Starts from the beginning of the list.
+- Checks each item one by one.
+- Stops when the item is found or the list ends.
+
+**Example:**  
+Looking for your friend's name in a guest list from top to bottom.
+
+---
+
+## 2. **Sentinel Linear Search**
+- A trick to avoid checking end of list every time.
+- Adds the target item at the end of the list (called the sentinel).
+- Simplifies the loop by ensuring the item will definitely be found.
+
+**Note:** The actual list size is restored after the search.
+
+---
+
+## 3. **Linear Search on Ordered List**
+- The list is already sorted.
+- Stops early if the current item is greater than the one you're looking for.
+- Faster than basic linear search in some cases.
+
+**Example:**  
+Looking for the number 25 in a list like [10, 15, 20, 25, 30, 35].  
+If you reach 30 and haven’t found 25, you can stop.
+
+---
+
+## 4. **Bidirectional Linear Search**
+- Starts checking from both ends of the list at the same time.
+- Useful if the item could be anywhere.
+- Stops when the item is found or both ends meet.
+
+**Example:**  
+Two friends look for a book, one from the start and one from the end of the shelf.
+
+---
+
+## Summary
+
+| Type                    | Key Idea                                  |
+|-------------------------|-------------------------------------------|
+| Basic                  | Checks from start to end                  |
+| Sentinel               | Adds target to end to simplify loop       |
+| Ordered                | Stops early in sorted lists               |
+| Bidirectional          | Searches from both ends at once           |
+
 ### 📊 Summary
 
 - **Time Complexity**: `O(n)` in the worst case, `O(1)` in the best case.
